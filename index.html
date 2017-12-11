@@ -27,7 +27,7 @@
               <span class="icon-bar"></span>
             </button>
 
-            <a href="#" class="navbar-brand"><img src="assets/images/logoForma.png"></a>
+            <a href="#" class="navbar-brand"><img src="assets/images/logoForma.png" class="img-responsive"></a>
 
           </div>
       <!-- BARRA DE NAVEGACION QUE SE MUESTRA EN PAGINA COMPLETA -->
@@ -81,20 +81,24 @@
         <div class="row">
           <div class="col-md-12 taxi"></div>
         </div>
+      </div>
 
+      <div class="container">
         <div class="row">
-          <div class="col-md-7 col-md-offset-5 yellow_background yellow_box">
-            <h3>Disfruta del Viaje</h3>
-            <h3>Eres dueño de tu tiempo</h3>
+          <div class="col-md-8 col-md-offset-4 yellow_background yellow_box">
+            <h3 class="text_yellow_box">Disfruta del Viaje</h3>
+            <h3 class="text_yellow_box">Eres dueño de tu tiempo</h3>
             <br>
-            <h4>Viaja con LabCar</h4>
+            <h4>Viaja con <img src="assets/images/logoBlanco.png"></h4>
             <br>
-            <button type="submit" class="btn btn-default" href="#registrate" data-toggle="modal"><strong>REGÍSTRATE</strong></button>
+            <button type="submit" class="btn button_yellow_box" href="#registrate" data-toggle="modal"><strong>REGÍSTRATE</strong></button>
             <br>
             <p class="text_o_bien">O bien</p>
-            <button type="submit" class="btn btn-default"><strong>Conviértete en un conductor</strong></button>
+            <button type="submit" class="btn button_yellow_box"><strong>Conviértete en un conductor</strong></button>
           </div>
         </div>
+
+      </div>
 
         <!-- SEGUNDO MODAL: REGISTRATE -->
         <div class="modal fade" id="registrate">
@@ -212,7 +216,7 @@
 
                   <div class="dropdown col-md-12">
                     <p>¿Tienes vehículo de 4 puertas?</p>
-                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <button class="btn dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                       Sí
                       <span class="caret"></span>
                     </button>
@@ -224,7 +228,7 @@
 
                   <div class="dropdown col-md-12">
                     <p>Marca</p>
-                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                       Elige la marca del vehículo
                       <span class="caret"></span>
                     </button>
@@ -242,7 +246,7 @@
 
                   <div class="dropdown col-md-12">
                     <p>Modelo</p>
-                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <button class="btn dropdown-toggle" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                       Modelo_1
                       <span class="caret"></span>
                     </button>
@@ -256,7 +260,7 @@
 
                   <div class="dropdown col-md-12">
                     <p>Año</p>
-                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <button class="btn dropdown-toggle" type="button" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                       2017
                       <span class="caret"></span>
                     </button>
@@ -271,6 +275,8 @@
                   <div class="input-group col-md-12">
                     <p>Número de la Matrícula</p>
                     <input type="text" class="form-control" placeholder="Número de la Matrícula" aria-describedby="sizing-addon2">
+                    <br>
+                    <br>
                     <p>La información de la matrícula ayuda a los clientes a identificar tu vehículo</p>
 
                     <button type="submit" name="button" class="cyan_button_modal"><strong>ENVIAR</strong></button>

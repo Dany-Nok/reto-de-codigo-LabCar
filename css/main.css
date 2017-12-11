@@ -45,7 +45,7 @@ body{ /* PADDING PARA QUE LA NAVBAR NO BLOQUEE NINGÚN OBJETO HACIA ABAJO */
 
 /* ESTILOS DE LA PRIMERA SECCION: TAXI BACKGROUND */
 .taxi_background{
-  padding: 30%;
+  padding: 15%;
   background-image: url("../assets/images/taxi.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -53,7 +53,7 @@ body{ /* PADDING PARA QUE LA NAVBAR NO BLOQUEE NINGÚN OBJETO HACIA ABAJO */
 }
 
 .yellow_box{
-  padding: 20%;
+  padding: 2%;
 }
 
 h3, h4{
@@ -65,6 +65,10 @@ h3{
   font-size: 2em;
 }
 
+.text_yellow_box{
+  line-height: 0.5em;
+}
+
 h4{
   font-size: 1.5em;
 }
@@ -73,8 +77,13 @@ h4{
   content: "-";
   display: inline-block;
   width: 20%;
+  height: auto;
   background-color: white;
-  margin: 2% 2% 2% 0;
+  margin: 5%;
+}
+
+.button_yellow_box{
+  margin-left: 0;
 }
 
 /* ESTILOS DEL SEGUNDO MODAL (REGISTRATE) */
@@ -167,13 +176,16 @@ p{
 
 #conductor p{
   color: inherit;
+  font-size: 1.125em;
   font-weight: bold;
-  line-height: normal;
+  line-height: 1em;
+  padding: 0;
 }
 
 #dropdownMenu1, #dropdownMenu2, #dropdownMenu3, #dropdownMenu4{
-  padding: 1%;
-  width: 90%;
+  margin: 1% 0;
+  padding: 0 0 1% 0;
+  width: 100%;
 }
 
 /* ESTILOS DE LA CUARTA SECCION: TARIFAS, INPUT DATOS Y MAPA */
