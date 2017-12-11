@@ -4,10 +4,46 @@
   font-family: 'Raleway', sans-serif;
 }
 
-body{
+body{ /* PADDING PARA QUE LA NAVBAR NO BLOQUEE NINGÚN OBJETO HACIA ABAJO */
   padding-top: 50px;
 }
 
+/* ESTILOS DEL PRIMER MODAL (INICIAR SESION) */
+#navbar-1{
+  padding: 0.5%;
+}
+
+#inicia-sesion .modal-header, #inicia-sesion .modal-body{
+  background-color: #08ac9d;
+}
+
+.fa-5x{
+  color: white;
+  margin: 0 45%;
+}
+
+.big-group-modal{
+  max-width: 100%;
+  background-color: white;
+  border-radius: 5px;
+  padding: 3%;
+}
+
+.input-group{
+  width: 90;
+  padding: 2%;
+}
+
+.yellow_button_modal{
+  margin: 0 85%;
+  padding: 5% 15%;
+}
+
+.text_forgot{
+  color: inherit;
+}
+
+/* ESTILOS DE LA PRIMERA SECCION: TAXI BACKGROUND */
 .taxi_background{
   padding: 30%;
   background-image: url("../assets/images/taxi.jpg");
@@ -16,8 +52,67 @@ body{
   background-position: bottom;
 }
 
+.yellow_box{
+  padding: 20%;
+}
+
+h3, h4{
+  color: white;
+  font-weight: bold;
+}
+
+h3{
+  font-size: 2em;
+}
+
+h4{
+  font-size: 1.5em;
+}
+
+.text_o_bien::after, .text_o_bien::before{
+  content: "-";
+  display: inline-block;
+  width: 20%;
+  background-color: white;
+  margin: 2% 2% 2% 0;
+}
+
+/* ESTILOS DEL SEGUNDO MODAL (REGISTRATE) */
+#registrate .modal-content, #registrate .big-group-modal{
+  background-color: #a9a9a9;
+}
+
+.black_button_modal, .cyan_button_modal{
+  color: white;
+  font-weight: bold;
+  border-style: none;
+  border-radius: 5px;
+  padding: 3% 48%;
+}
+
+.black_button_modal{
+  background-color: black;
+}
+
+/*.name_lastname{
+  padding: 2%;
+  width: 48%;
+}*/
+
+.cyan_button_modal{
+  background-color: #3399cc;
+}
+
+
+
+
+/* ESTILOS DE LA SEGUNDA SECCION: CEL APP (CUADRO AMARILLO DE INFO CON CELULAR) */
 .cel_app{
   padding: 5% 5% 5% 0;
+  background-color: #f7b617;
+}
+
+.yellow_background{
   background-color: #f7b617;
 }
 
@@ -27,19 +122,20 @@ body{
 }
 
 .h3_box{
-  color: white;
-  font-size: 2em;
-  font-weight: bold;
   line-height: 2.5em;
 }
 
-.p_box{
+p{
   color: white;
   font-size: 1.25em;
+}
+
+.p_box{
   line-height: 1.5em;
   padding-right: 20%;
 }
 
+/* ESTILOS DE LA TERCERA SECCION: CONDUCE BACKGROUND ("CONDUCE CUANDO QUIERAS...") */
 .conduce_background{
   background-image: url("../assets/images/conduce.jpg");
   background-size: cover;
@@ -52,43 +148,102 @@ body{
   padding: 8%;
 }
 
-.h3_box_2{
-  color: white;
-  font-size: 2em;
-  font-weight: bold;
-}
-
-.p_box_2{
-  color: white;
-  font-size: 1.25em;
-}
-
-.yellow_button{
+.yellow_button, .yellow_button_modal{
   background-color: #f7b617;
   color: white;
   font-weight: bold;
   border-style: none;
   border-radius: 5px;
+}
+
+.yellow_button{
   padding: 3.5%;
 }
 
+/* ESTILOS DEL TERCER MODAL (CONVIERTETE EN CONDUCTOR) */
+#conductor .modal-content, #conductor .big-group-modal{
+  background-color: #a9a9a9;
+}
+
+#conductor p{
+  color: inherit;
+  font-weight: bold;
+  line-height: normal;
+}
+
+#dropdownMenu1, #dropdownMenu2, #dropdownMenu3, #dropdownMenu4{
+  padding: 1%;
+  width: 90%;
+}
+
+/* ESTILOS DE LA CUARTA SECCION: TARIFAS, INPUT DATOS Y MAPA */
 .fill_here{
   background-color: #f7b617;
   color: white;
+  padding: 5%;
   border: 1px solid white;
   border-radius: 5px;
 }
 
+.fa-2x{
+  color: white;
+}
+
+.btn-default{
+  padding: 3.5% 10%;
+  margin-left: 20%;
+}
+
+.google_map_border{
+  width: 90%;
+  padding: 1%;
+  border: 1px solid white;
+  margin-left: 15%;
+}
+
+.map{
+  width: 100%;
+}
+
+/* ESTILOS DEL FOOTER */
 .background_footer{
   background-color: #2b2b2b;
+  padding: 5% 10%;
+}
+
+.footer_white_labcar_logo, .footer_copyright{
+  padding: 2% 0;
 }
 
 .white_lines_box{
-  border-top: 1px solid white;
-  border-bottom: 1px solid white;
+  border-top: 0.5px solid white;
+  border-bottom: 0.5px solid white;
 }
 
-.items_list, .items_list:hover{
+.icons_list{
+  padding-top: 30%;
+}
+
+.items_list{
+  margin-top: 10%;
+  list-style: none;
   color: white;
   text-decoration: none;
+}
+
+.links, .links:hover, .footer_copyright, .social_media_icons{
+  color: white;
+}
+
+.links, .links:hover{
+  text-decoration: none;
+}
+
+.where_download{
+  margin-top: 80%;
+}
+
+.icons_store{
+  padding: 5% 0;
+  width: 80%;
 }
